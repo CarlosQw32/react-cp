@@ -2,6 +2,7 @@ import React from "react";
 import Api from "../cep";
 import { useState } from "react";
 import { FcSearch } from "react-icons/fc";
+import { ContainerPage } from "../../components/main";
 
 
 export default function Cep(){
@@ -26,7 +27,7 @@ export default function Cep(){
 
         <div>
 
-            
+         <ContainerPage>  
         <h1> Pesquisar CEP</h1>
        CEP: <input type="text" placeholder="CEP:" value={cepDigitado} onChange={(event)=> setCepDigitado(event.target.value)}/>
         <button onClick={pesquisarCep}>
@@ -38,7 +39,7 @@ export default function Cep(){
         <p> CEP: {valoresCep.cep} </p>
         <p> Cidade: {valoresCep.localidade}</p>
         <p> Uf: {valoresCep.uf}</p>
-        
+        </ContainerPage> 
 
        
         </div>
