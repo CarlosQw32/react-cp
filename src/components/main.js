@@ -3,6 +3,6 @@ import { createGlobalStyle } from "styled-components";
 
 export const Routes = createGlobalStyle`
     body{
-        background-color:LightSteelBlue
+        padding:5%;
     }
 `

@@ -5,7 +5,11 @@ export const AreaHeader = styled.div `
     background-color: SlateBlue;
     color: white;
     
-    a {text-decoration: none; color: MediumSeaGreen; font-size :large;}
+    a {text-decoration: none;
+        color: MediumSeaGreen;
+        font-size :large;
+        font-weight: bolder;
+        }
     
     a:visited {text-decoration: none;}
     a:hover {text-decoration: none;}
