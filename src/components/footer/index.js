@@ -5,7 +5,7 @@ function Footer (){
     return (
     <AreaFooter>
         <div>
-            DIREITOS AUTORAIS DA FIAP
+            DIREITOS AUTORAIS DO CARLOS
         </div>
     </AreaFooter>
 )};

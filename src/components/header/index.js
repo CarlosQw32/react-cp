@@ -20,6 +20,7 @@ function Header(){
                             <li><Link to="/" >Home</Link></li>
                             <li><Link to = "/sobre">Sobre</Link></li>
                             <li><Link to = "/cep">Cep</Link></li>
+                            <li><Link to="/email">E-mail</Link></li>
                             
                         </ul>
 
