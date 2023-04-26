@@ -21,6 +21,7 @@ function Header(){
                             <li><Link to = "/sobre">Sobre</Link></li>
                             <li><Link to = "/cep">Cep</Link></li>
                             <li><Link to="/email">E-mail</Link></li>
+                            <li><Link to = "/rick">Rick</Link></li>
                             
                         </ul>
 

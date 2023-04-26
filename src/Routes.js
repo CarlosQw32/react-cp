@@ -3,6 +3,7 @@ import Sobre from "./paginas/sobre";
 import Home from "./paginas/home";
 import Cep from "./paginas/cep";
 import Email from "./paginas/email";
+import Rick from "./paginas/rick"
 
 
 
@@ -25,6 +26,10 @@ export default function Routes() {
 
             <Route exact path='/email'>
                 <Email></Email>
+            </Route>
+
+            <Route exact path='/rick'>
+                <Rick></Rick>
             </Route>
             
 
