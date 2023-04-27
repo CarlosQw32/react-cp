@@ -3,7 +3,10 @@ import Sobre from "./paginas/sobre";
 import Home from "./paginas/home";
 import Cep from "./paginas/cep";
 import Email from "./paginas/email";
-import Rick from "./paginas/rick"
+import Rick from "./paginas/rick";
+import Tmz from "./paginas/tmz";
+import AppRick_V3 from "./paginas/rickV2"
+
 
 
 
@@ -30,6 +33,14 @@ export default function Routes() {
 
             <Route exact path='/rick'>
                 <Rick></Rick>
+            </Route>
+
+            <Route exact path='/tmz'>
+                <Tmz></Tmz>
+            </Route>
+
+            <Route exact path='/rickV3'>
+                <AppRick_V3></AppRick_V3>
             </Route>
             
 
