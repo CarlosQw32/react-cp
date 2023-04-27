@@ -21,7 +21,10 @@ function Header(){
                             <li><Link to = "/sobre">Sobre</Link></li>
                             <li><Link to = "/cep">Cep</Link></li>
                             <li><Link to="/email">E-mail</Link></li>
+                            <li><Link to = "/apiTmz">TMZ</Link></li>
                             <li><Link to = "/rick">Rick</Link></li>
+                            <li><Link to = "/rickV3">Rick-V2</Link></li>
+                            
                             
                         </ul>
 

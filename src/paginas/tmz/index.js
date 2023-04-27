@@ -9,6 +9,7 @@ class AppTMZ extends Component{
 
     async componentDidMount(){
         const response = await apiTmz.get('batman');
+        console.log(response.data);
         this.setState({filmes:response.data});
     }
 

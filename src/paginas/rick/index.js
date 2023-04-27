@@ -6,29 +6,32 @@ import apiRick_v2 from "../../services/apiRick_v2";
 
 class AppRick extends Component{
     state={
-        results:[],
+        resultados:[],
     }
 
     async componentDidMount(){
         const response = await apiRick_v2.get('2');
-        this.setState({results:response.data});
+        console.log(response.data);
+        this.setState({resultados:response.data});
     }
 
     render(){
 
-        const{results} = this.state;
+        const{resultados} = this.state;
 
         return(
             <div>
                 <h1>PAGINA DE FILMES</h1>
-                {results.map(results =>(
-                    <li key={results.show.id}>
-                        <h2><strong>Titulo</strong> {results.show.name}</h2>
-                        <p>Tipo: {results.show.type}</p>
+                {resultados.map(resultado =>(
+                <li key={resultado.results.id}>
+                        <h2><strong>Titulo</strong> {resultado.results.name}</h2>
+                        <p>Tipo: {resultado.results.status}</p>
                     </li>
                 ))
 
                 }
+
+                
             </div>
         )
 
